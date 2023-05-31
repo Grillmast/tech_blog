@@ -1,0 +1,18 @@
+{{> posting post}}
+
+{{#if logged_in}}
+<form class="comment-form">
+  <div class="form-group">
+    <h2 class="comment-heading">Create New Post</h2>
+    <div>
+    <label class="comment-title">Title</label>
+    <textarea class="text" name="comment" id="comment" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+      <label class="content-title">Content</label>
+      <textarea class="text" name="comment" id="comment" cols="30" rows="5"></textarea>
+    </div>
+  <button type="submit" class="btn btn-primary">Create</button>
+  </div>
+</form>
+{{/if}}

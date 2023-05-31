@@ -1,0 +1,16 @@
+<h2>Tech Blogger</h2>
+{{#if posts.length}}
+<section>
+    <ul class="post-list">
+        {{#each posts as |post|}}
+        <ul>
+            {{> posting post}}
+            <a href="/posts/{{post.id}}" class="edit-link">Edit</a>
+        </ul>
+        {{/each}}
+    </ul>
+</section>
+{{/if}}
+<section class="new-post">
+    <button type="submit" class="btn" id="create-new-post">Create New Post</button>
+</section>
