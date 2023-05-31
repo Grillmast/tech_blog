@@ -1,0 +1,22 @@
+{
+  "name": "tech_blog",
+  "version": "1.0.0",
+  "description": "A tech blog similar to a Wordpress site. Built from scratch.",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grillmast/tech_blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grillmast/tech_blog/issues"
+  },
+  "homepage": "https://github.com/Grillmast/tech_blog#readme"
+}
